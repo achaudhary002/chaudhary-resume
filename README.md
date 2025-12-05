@@ -2,8 +2,8 @@
 **Junior / Associate SysAdmin**  
 📍 Baltimore, Maryland, United States  
 📧 email: ashish.chau002@gmail.com  
-🔗 [GitHub](https://github.com/achaudhary002)  
- [linkedin](https://www.linkedin.com/in/achaudhary002/)
+🔗 Checkout My Projects: [GitHub](https://github.com/achaudhary002)  
+🔗 Find Me:[linkedin](https://www.linkedin.com/in/achaudhary002/)
 ---
 
 ## 🧑‍💻 Skills
