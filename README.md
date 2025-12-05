@@ -15,8 +15,6 @@
   
 ---  
 
----
-
 ## 📚 Projects
 ### Homelab Environment 
 - Started Homelab from Microsoft Hypervisor with two Ubuntu(Desktop and Server) instances. 
