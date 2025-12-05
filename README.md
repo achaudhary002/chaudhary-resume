@@ -54,6 +54,8 @@
 - 5. Project done on Amazon's EC2 with asosciated Elastic IP address. 
 
 ### Kubernetes Project
+- Multi-tier project on K3 Clusters. K3 cluster uses Manifests file and builds full working Webapp on separate Pods.
+- Covers concepts like Kubectl, Master-Slave node, Pods, Deployments, Network, Services, Secrets AND many more.
 --- 
 
 ## 🎓 Education
