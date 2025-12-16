@@ -1,5 +1,5 @@
 # Aashish Chaudhary
-**Junior / Associate SysAdmin**  
+** IT HelpDesk Technician OR Junior/Associate SysAdmin**  
 📍 Baltimore, Maryland, United States  
 📧 email: ashish.chau002@gmail.com  
 🔗 Checkout My Projects: [GitHub](https://github.com/achaudhary002)  
@@ -7,7 +7,7 @@
 ---
 
 ## 🧑‍💻 Skills
-- Linux, Docker, Kubernetes
+- Windows,Linux, Docker, Kubernetes
 - Networking & Cisco Labs (OSPF, VLANs, DHCP, DNS, WLC, ROUTING, SWITCHING)  
 - AWS, Virtualization (Microsoft Hypervisor, Proxmox), Homelab  
 - Python, BASH Scripting, Jenkins(CI/CD), GitHub Actions
@@ -30,6 +30,7 @@
 - CCNA Mega Lab completed (instructor: David Bombal)
 
 ### Linux Projects (Collection)
+- Linux-Network-WITH-4VMS with Router, DHCPDNS and DMZ server, for internal domain routing, and External NAT Forwarding
 - LAMP Stack with NGINX as Reverse Proxy
 - Database on Backend, that collects application's user data.
 - Data Backup Project that does all Full, Incremental, Rsync Backup both on Local And Remote Destination
