@@ -1,24 +1,33 @@
 # Aashish Chaudhary
-** IT HelpDesk Technician OR Junior/Associate SysAdmin**  
+** Intern OR IT HelpDesk Technician OR Junior/Associate SysAdmin**  
 📍 Baltimore, Maryland, United States  
 📧 email: ashish.chau002@gmail.com  
 🔗 Checkout My Projects: [GitHub](https://github.com/achaudhary002)  
 🔗 Find Me:[linkedin](https://www.linkedin.com/in/achaudhary002/)
 ---
 
-## 🧑‍💻 Skills
-- Windows,Linux, Docker, Kubernetes
+## 🧑‍💻 Technical Skills
+- Windows, Linux, Docker, Kubernetes
 - Networking & Cisco Labs (OSPF, VLANs, DHCP, DNS, WLC, ROUTING, SWITCHING)  
 - AWS, Virtualization (Microsoft Hypervisor, Proxmox), Homelab  
 - Python, BASH Scripting, Jenkins(CI/CD), GitHub Actions
 - JAVA 
-  
+## Soft Skills
+- Problem Solving, Documentation, Conflict Resolution
+- Communication, Team Work
 ---  
 
 ## 📚 Projects
-### Homelab Environment 
-- Started Homelab from Microsoft Hypervisor with two Ubuntu(Desktop and Server) instances. 
-- Later, these instances migrated to the Proxmox VE on Beelink(EQ), with full data and system retention.
+### Linux Projects (Collection)
+- Linux-Network-WITH-4VMS with Router, DHCPDNS and DMZ server, for internal domain routing, and External NAT Forwarding
+- Dummy Disk Creation Project, storage creation from low-level to high-level (hardware to user) and write to it
+- LAMP Stack with NGINX as Reverse Proxy
+- Database on Backend, that collects application's user data.
+- Data Backup Project that does all Full, Incremental, Rsync Backup both on Local And Remote Destination
+- Apache Service Project works with how to install and work with System's Service Files using Systemd Concepts
+- User Service Creation (hello.service creation) Project demonstrates the steps and workflow to create any service in the future. For example, Backup service, monitoring service, and more.
+- System Monitoring with monit tool   
+
 
 ### Cisco Networking Lab (Collections)
 - Designed campus network, implemented OSPF, VLANs, DHCP Snooping, WLC
@@ -29,14 +38,7 @@
 - Financial System Network Design
 - CCNA Mega Lab completed (instructor: David Bombal)
 
-### Linux Projects (Collection)
-- Linux-Network-WITH-4VMS with Router, DHCPDNS and DMZ server, for internal domain routing, and External NAT Forwarding
-- LAMP Stack with NGINX as Reverse Proxy
-- Database on Backend, that collects application's user data.
-- Data Backup Project that does all Full, Incremental, Rsync Backup both on Local And Remote Destination
-- Apache Service Project works with how to install and work with System's Service Files using Systemd Concepts
-- User Service Creation (hello.service creation) Project demonstrates the steps and workflow to create any service in the future. For example, Backup service, monitoring service, and more.
-- System Monitoring with monit tool   
+
 ### Docker Projects (FLASK AND DJango Note APP)
 -  Two-tier Flask App deployed on Docker Container with MYSQL database connection
 -  Covered Concepts include Docker fundamentals, Dockerfile, Dockercompose, Multistage build, Data Persistence and Docker Networking.
@@ -55,6 +57,9 @@
 ### Kubernetes Project
 - Multi-tier project on K3 Clusters. K3 cluster uses Manifests file and builds full working Webapp on separate Pods.
 - Covers concepts like Kubectl, Master-Slave node, Pods, Deployments, Network, Services, Secrets AND many more.
+  ### Homelab Environment 
+- Started Homelab from Microsoft Hypervisor with two Ubuntu(Desktop and Server) instances. 
+- Later, these instances migrated to the Proxmox VE on Beelink(EQ), with full data and system retention.
 --- 
 
 ## 🎓 Education
