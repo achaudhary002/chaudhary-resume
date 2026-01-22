@@ -1,67 +1,93 @@
 # Aashish Chaudhary
-** Intern OR IT HelpDesk Technician OR Junior/Associate SysAdmin**  
+**  Junior OR Associate SysAdmin**  
 📍 Baltimore, Maryland, United States  
 📧 email: ashish.chau002@gmail.com  
 🔗 Checkout My Projects: [GitHub](https://github.com/achaudhary002)  
 🔗 Find Me:[linkedin](https://www.linkedin.com/in/achaudhary002/)
 ---
+## Professional Summary:
+  Junior SysAdmin passionate for Linux Systems. Have hands-on experiences working with Systems from SysAdmin Perspective along with the Devops Tools. Excited to break,
+  fix and build systems. Strong background on Networking, Virtualization, Containerization from real-world based projects and homelab environments.
 
-## 🧑‍💻 Technical Skills
-- Windows, Linux, Docker, Kubernetes
-- Networking & Cisco Labs (OSPF, VLANs, DHCP, DNS, WLC, ROUTING, SWITCHING)  
-- AWS, Virtualization (Microsoft Hypervisor, Proxmox), Homelab  
-- Python, BASH Scripting, Jenkins(CI/CD), GitHub Actions
-- JAVA 
-## Soft Skills
-- Problem Solving, Documentation, Conflict Resolution
-- Communication, Team Work
----  
+## Core Technical Skills
 
-## 📚 Projects
-### Linux Projects (Collection)
-- Linux-Network-WITH-4VMS with Router, DHCPDNS and DMZ server, for internal domain routing, and External NAT Forwarding
-- Dummy Disk Creation Project, storage creation from low-level to high-level (hardware to user) and write to it
-- LAMP Stack with NGINX as Reverse Proxy
-- Database on Backend, that collects application's user data.
-- Data Backup Project that does all Full, Incremental, Rsync Backup both on Local And Remote Destination
-- Apache Service Project works with how to install and work with System's Service Files using Systemd Concepts
-- User Service Creation (hello.service creation) Project demonstrates the steps and workflow to create any service in the future. For example, Backup service, monitoring service, and more.
-- System Monitoring with monit tool   
+### Linux Administration Skills
+- Linux (Ubuntu Server and Desktop)
+- User and Group Management
+- Files ownership and Permissions Management
+- Package management (apt)
+- systemd service management
+- Log analysis and troubleshooting
+- Network File Share (NFS) management
+
+### Backup & Recovery
+- Full, incremental, and rsync backup (local and remote)
+- Backup Automation Concepts
+- Data integrity and recovery testing
+
+### Service Hosting
+- Web servers: nginx, Apache
+- Reverse Proxy configuration
+- Service Deployment and custom service creation
+
+### Networking (General and Linux Focused)
+- TCP/IP, DNS, DHCP, NAT & Routing, VLANs, OSPF, Subnetting, Voip, IPsec
+
+### Virtualization
+- Proxmox VE
+- Microsoft Hyper-V
+- Virtual-Box
+
+### Version Control, CICD and Containers
+- Bash Scripting
+- Docker and Kubernetes
+- Git & Github
+- GithubActions and Jenkins
+- Kubernetes
+
+---
+
+## Projects
+
+### Server Administration and Networking
+- Network File Share (NFS) created and mounted permanently to the Client Machine
+- Ext4, xfs filesystem resized and Corrupt FileSystem Repaired
+- Designed an isolated network domain with its own internal routing, IP Addressing (DHCP), DNS resolution (including reverse DNS lookup), firewalling (UFW) with DHCP/DNS and DMZ segmentation that hosts Web service using Nginx
+- Configured NAT Forwarding (Masquerade) to securely forward internal default traffic to external internet
+- Added firewall rules that help the router to make routing decisions for the traffic flowing through
+- Storage Created using Dummy Disk, made it block device, created partitions and assigning the filesystem and finally wrote data to it
+- LUKS Encryption Added to Created Dummy Disk, and simulated the System Boot Lockout, troubleshooted and successfully logged back into the System
+
+### Backup & Data Management
+- Designed and implemented full, incremental, and remote backups using rsync
+- Backup Service scheduled with cron jobs task list
+
+### Networking Projects (Cisco / CCNA-Level)
+- Designed and implemented enterprise-style networks including campus, banking, hospital, VOIP, and hotel systems
+- Configured VLANs, Layer2 and Layer3 Switching, inter-VLAN routing, OSPF routing, DHCP Snooping, and Wireless LAN Controllers
+- Successfully Completed CCNA Mega Lab with 95% score (Instructor: David Bombal)
+
+### Service Hosting & systemd
+- Built LAMP stack with Database Backend for Application Data Storage and hosted WordPress on nginx
+- Created and Managed custom systemd services
+- Remote System monitored using monit tool. SSH connection established and the performance output shown with Port Forwarding
+
+### Containers and Orchestration
+- Deployed Flask and Django Application using Docker on AWS EC2 instances
+- Configured Docker Networking, Docker Volumes and most importantly, Docker Data Persistence
+- Three-tier Application Deployed on AWS EC2 with associated static Elastic IP, Security Groups, on Kubernetes’ K3 cluster that continuously integrates and continuously deploys (CICD) from Github Webhooks that trigger Jenkins build using Jenkinsfile
+
+### HomeLab (Linux and Virtualization)
+- Built and maintaining a Linux homelab using Proxmox VE on Dedicated Machine
+- Migrated Linux VMs, from initial Microsoft Hyper-V setup to Proxmox with full data and configuration retention
+- Used homelab for Linux Administration, Backups, Testing, and local projects
+
+---
+
+## Education
+- **Master’s Degree – Computer Information Assurance** (Graduated 2024)  
+- **Bachelor’s Degree – Computer Science** (Graduated 2021)  
+- Wilmington University, New Castle, DE
+```
 
 
-### Cisco Networking Lab (Collections)
-- Designed campus network, implemented OSPF, VLANs, DHCP Snooping, WLC
-- Designed Banking System Network
-- Designed Hospital's System Network Branch and HeadQuarter
-- Designed VOIP Telephony Network
-- Hotel System Network Design
-- Financial System Network Design
-- CCNA Mega Lab completed (instructor: David Bombal)
-
-
-### Docker Projects (FLASK AND DJango Note APP)
--  Two-tier Flask App deployed on Docker Container with MYSQL database connection
--  Covered Concepts include Docker fundamentals, Dockerfile, Dockercompose, Multistage build, Data Persistence and Docker Networking.
--  Three-tier Django Notes-APP with Mysql backend and Nginx Reverse Proxy
--  Simple Note-App that collects the user's note and stores the data to its mysql backend. Nginx forwards /url to port 8000.
--  Docker Containerization concepts demonstrated. And Reverse Proxy demonstrated.
--  Built with using DockerCompose file.
-
-### Jenkins Project (Node-CICD-Demo)
-- Node application that gets deployed on Kubernetes Cluster K3s using Jenkins
-- Once the changes are pushed to github, the webhook triggers the Jenkins' build triggers and Jenkins does build the apps
-- Jenkins follows the requirements and the build stages defined on Jenkinsfile.
-- Required Services and Deployments are also defined as .yml files.
-- Project done on Amazon's EC2 with asosciated Elastic IP address. 
-
-### Kubernetes Project
-- Multi-tier project on K3 Clusters. K3 cluster uses Manifests file and builds full working Webapp on separate Pods.
-- Covers concepts like Kubectl, Master-Slave node, Pods, Deployments, Network, Services, Secrets AND many more.
-  ### Homelab Environment 
-- Started Homelab from Microsoft Hypervisor with two Ubuntu(Desktop and Server) instances. 
-- Later, these instances migrated to the Proxmox VE on Beelink(EQ), with full data and system retention.
---- 
-
-## 🎓 Education
-- Master’s Degree in Computer Information Assurance/ Wilmington University / 2024
-- Bachelor’s Degree in Computer Science/ Wilmington University / 2021
